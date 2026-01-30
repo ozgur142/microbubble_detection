@@ -1,0 +1,30 @@
+# Data and large files
+*.zip
+*.mat
+*.npy
+*.png
+*.jpg
+data/
+datasets/
+raw_data/
+
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Notebooks and IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Model outputs and logs
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
